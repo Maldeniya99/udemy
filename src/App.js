@@ -5,8 +5,9 @@ import Functionalcomponents from "./components/Functionalcomponents";
 function App() {
   return (
     <div className="App">
-      <Classcomponents />
-      <Functionalcomponents />
+      <Classcomponents name="Iron man" age="40" />
+
+      <Functionalcomponents name="hulk" age="35" />
     </div>
   );
 }
